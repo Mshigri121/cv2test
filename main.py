@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 #Ref setup for variables used in cv resize function
-stock_image = cv2.imread("brheart.png", )
+stock_image = cv2.imread("INSERT LOCAL IMAGE NAME HERE", )
 print('Original Dimensions : ', stock_image.shape)
 scale_percent = 25  # percent of original size
 width = int(stock_image.shape[1] * scale_percent / 100)
